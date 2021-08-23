@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     let resultat2 = beregnForhold2(54, 0);
 
     function beregnForhold(a, b){
-    return a / b;
+        return a / b;
     };
 
     function beregnForhold2(a, b){
