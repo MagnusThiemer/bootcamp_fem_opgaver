@@ -23,12 +23,12 @@ body {
 
 /* ITEM */ 
 .Item {
-    background-color: #eeeeee;
+    background-color: #f5f5f5;
     text-align: center;
 }
 
 .item_highlight { /* BEM MODIFIER HIGHLIGHT */
-    box-shadow: inset 0px 0px 20px 3px #f8cc05;
+    box-shadow: inset 0px 0px 170px 20px #f5d547;
 /*     background-color: #faf29d; */
 }
 
