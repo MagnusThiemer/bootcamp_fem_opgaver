@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opgave 02</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="Main">
+
+        <section class="main__product-gallery Product-gallery flex" id="productGalleryElement">
+
+            <div class="product-gallery__item Item" id=item1>
+                <div class="item__img-container">
+                    <img src="assets/blomster.jpg" alt="" class="item__img">
+                </div>
+                <h3 class="item__navn">Blomster</h3>
+                <p class="item__pris"><span id="item1Pris">122</span>,-</p>
+                <p>antal: <span class="item__antal" id="item1Antal">0</span></p>
+                <div class="item__buttons-container flex">
+                    <button class="item__button" id="item1DecreaseButton">-</button>
+                    <button class="item__button" id="item1IncreaseButton">+</button>
+                </div>
+                <p class="item__total">Total: <span id="item1Total">0</span></p>
+            </div>
+
+            <div class="product-gallery__item Item" id=item2>
+                <div class="item__img-container">
+                    <img src="assets/honning.jpg" alt="" class="item__img">
+                </div>
+                <h3 class="item__navn">Honning</h3>
+                <p class="item__pris"><span id="item2Pris">4290</span>,-</p>
+                <p>antal: <span class="item__antal">0</span></p>
+                <div class="item__buttons-container flex">
+                    <button class="item__button">-</button>
+                    <button class="item__button">+</button>
+                </div>
+                <p class="item__total">Total: <span id="item2Total">0</span></p>
+            </div>
+
+            <div class="product-gallery__item Item item_highlight" id="item3">
+                <div class="item__img-container">
+                    <img src="assets/flamingo.jpg" alt="" class="item__img">
+                </div>
+                <h3 class="item__navn">Flamingo</h3>
+                <p class="item__pris"><span id="item3Pris">78</span>,-</p>
+                <p>antal: <span class="item__antal">0</span></p>
+                <div class="item__buttons-container flex">
+                    <button class="item__button">-</button>
+                    <button class="item__button">+</button>
+                </div>
+                <p class="item__total">Total: <span id="item3Total">0</span></p>
+            </div>
+
+        </section>
+
+    </main>
+    
+
+    <script src="js/index.js"></script>
+</body>
+</html>
